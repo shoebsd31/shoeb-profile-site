@@ -19,17 +19,23 @@ import { ScrollAnimateDirective } from '../../../../shared/directives/scroll-ani
           <div class="md:col-span-2">
             <div class="glass rounded-2xl p-8 card-hover">
               <p class="text-white/70 leading-relaxed mb-4">
-                I'm a Solutions Architect with over <span class="text-white font-semibold">14 years of experience</span>
-                developing applications across desktop, web, and mobile platforms.
+                With over <span class="text-white font-semibold">14 years of experience</span> in solutions architecture,
+                I specialize in building applications across desktop, web, and mobile platforms. At the
+                <span class="text-[#8b5cf6] font-semibold">International Atomic Energy Agency (IAEA)</span>,
+                I am spearheading AI initiatives and contributing to multiple high-impact projects that drive
+                meaningful organizational outcomes.
               </p>
               <p class="text-white/70 leading-relaxed mb-4">
-                Currently working at the <span class="text-[#8b5cf6] font-semibold">International Atomic Energy Agency (IAEA)</span>
-                on multiple high-impact projects. I bring deep expertise in cloud technologies (primarily Azure and AWS),
-                AI-powered solutions, and enterprise automation.
+                My expertise spans a diverse technology landscape, with a strong focus on
+                <span class="text-white font-semibold">Azure</span> and <span class="text-white font-semibold">Power Platform</span>,
+                complemented by proficiency in .NET, REST APIs, Docker, Kubernetes, CI/CD, Angular, Node.js,
+                and a broad range of cloud services. I am passionate about leveraging AI to design intelligent
+                automation solutions that optimize business processes and deliver measurable results.
               </p>
               <p class="text-white/70 leading-relaxed">
-                I'm a strong advocate for software quality through automated testing and test-driven development,
-                and I believe in implementing AI-based automation wherever it creates genuine value.
+                I champion test-driven development with a security-first mindset, ensuring that quality and resilience
+                are built into every solution from the ground up. Above all, I believe in adopting AI purposefully —
+                only where it adds genuine value and solves real problems.
               </p>
             </div>
           </div>
