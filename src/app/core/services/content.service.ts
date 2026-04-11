@@ -29,6 +29,9 @@ export interface SkillsData {
 export interface Certification {
   name: string;
   issuer: string;
+  date?: string;
+  credentialId?: string;
+  skills?: string[];
 }
 
 export interface Education {
@@ -43,7 +46,16 @@ export interface ContactInfo {
   linkedin: string;
   portfolio: string;
   blog: string;
+  github: string;
   location: string;
+}
+
+export interface GitHubProject {
+  name: string;
+  description: string;
+  html_url: string;
+  language: string;
+  topics: string[];
 }
 
 @Injectable({ providedIn: 'root' })
@@ -72,5 +84,9 @@ export class ContentService {
 
   getContact(): Observable<ContactInfo> {
     return this.http.get<ContactInfo>('assets/content/contact.json');
+  }
+
+  getGitHubProjects(): Observable<GitHubProject[]> {
+    return this.http.get<GitHubProject[]>('assets/content/github-projects.json');
   }
 }

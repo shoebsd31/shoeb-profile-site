@@ -23,9 +23,6 @@ import { Component, signal, HostListener } from '@angular/core';
             </a>
           }
         </nav>
-        <div class="hidden md:flex items-center">
-          <img src="assets/agenticUILogo.png" alt="Agentic UI" class="h-8 w-auto object-contain opacity-70 hover:opacity-100 transition-opacity" />
-        </div>
         <button
           (click)="mobileMenuOpen.set(!mobileMenuOpen())"
           class="md:hidden text-white/80 hover:text-white transition-colors p-2">
@@ -62,6 +59,7 @@ export class HeaderComponent {
     { label: 'Experience', href: '#experience' },
     { label: 'Skills', href: '#skills' },
     { label: 'Education', href: '#education' },
+    { label: 'Projects', href: '#projects' },
     { label: 'Contact', href: '#contact' },
   ];
 

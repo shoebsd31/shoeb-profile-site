@@ -1,0 +1,37 @@
+[
+  {
+    "name": "formfiller",
+    "description": "AI-assisted tool that automatically populates form fields. Built with Python backend and a web-based interface using HTML/JS.",
+    "html_url": "https://github.com/shoebsd31/formfiller",
+    "language": "Python",
+    "topics": ["AI", "Automation", "Forms"]
+  },
+  {
+    "name": "speech2text",
+    "description": "Speech recognition & analysis app using Transformers, PyTorch, and Hugging Face models with a Gradio web interface and LLM integration.",
+    "html_url": "https://github.com/shoebsd31/speech2text",
+    "language": "Python",
+    "topics": ["AI", "NLP", "Speech Recognition"]
+  },
+  {
+    "name": "Form-Recognizer-Toolkit",
+    "description": "Fork of Microsoft's FRTK — components and features to accelerate development with Azure Form Recognizer service.",
+    "html_url": "https://github.com/shoebsd31/Form-Recognizer-Toolkit",
+    "language": "TypeScript",
+    "topics": ["Azure", "OCR", "Document Intelligence"]
+  },
+  {
+    "name": "flutter_todo_app",
+    "description": "A clean, minimal todo application built with Flutter and Dart for cross-platform mobile development.",
+    "html_url": "https://github.com/shoebsd31/flutter_todo_app",
+    "language": "Dart",
+    "topics": ["Flutter", "Mobile", "Dart"]
+  },
+  {
+    "name": "flutter_square_animation",
+    "description": "Exploring Flutter animation capabilities with interactive square geometry animations on mobile.",
+    "html_url": "https://github.com/shoebsd31/flutter_square_animation",
+    "language": "Dart",
+    "topics": ["Flutter", "Animation", "Mobile"]
+  }
+]

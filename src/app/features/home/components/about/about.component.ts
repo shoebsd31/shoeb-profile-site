@@ -52,7 +52,7 @@ export class AboutComponent {
   stats = [
     { value: '14+', label: 'Years Experience' },
     { value: '8', label: 'Companies' },
-    { value: '5', label: 'Certifications' },
+    { value: '26', label: 'Certifications' },
     { value: '5', label: 'Languages Spoken' },
   ];
 }
