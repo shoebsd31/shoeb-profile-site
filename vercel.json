@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "buildCommand": "ng build --configuration=production",
+  "outputDirectory": "dist/shoeb-profile-site/browser",
+  "installCommand": "npm ci",
+  "framework": null,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
