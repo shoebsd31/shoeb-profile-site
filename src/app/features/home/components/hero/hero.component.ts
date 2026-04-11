@@ -1,4 +1,5 @@
-import { Component, signal, OnInit, OnDestroy } from '@angular/core';
+import { Component, signal, inject, OnInit, OnDestroy } from '@angular/core';
+import { ResumeService } from '../../../../core/services/resume.service';
 
 @Component({
   selector: 'app-hero',
@@ -49,6 +50,13 @@ import { Component, signal, OnInit, OnDestroy } from '@angular/core';
             View My Work
             <span class="inline-block ml-1 transition-transform group-hover:translate-x-1">&rarr;</span>
           </a>
+          <button (click)="downloadResume()"
+            class="group px-8 py-3 rounded-full glass text-white/80 font-semibold text-sm hover:text-white hover:border-white/20 transition-all duration-300 flex items-center gap-2">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+            </svg>
+            Download Resume
+          </button>
           <a href="#contact"
             class="px-8 py-3 rounded-full glass text-white/80 font-semibold text-sm hover:text-white hover:border-white/20 transition-all duration-300">
             Get In Touch
@@ -72,6 +80,8 @@ import { Component, signal, OnInit, OnDestroy } from '@angular/core';
   `]
 })
 export class HeroComponent implements OnInit, OnDestroy {
+  private resumeService = inject(ResumeService);
+
   private titles = [
     'AI | Web | Architect | Cloud | Automation',
     'Solutions Architect @ IAEA',
@@ -87,6 +97,10 @@ export class HeroComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.type();
+  }
+
+  downloadResume(): void {
+    this.resumeService.generateResume();
   }
 
   ngOnDestroy(): void {
