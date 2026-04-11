@@ -1,0 +1,34 @@
+{
+  "categories": [
+    {
+      "name": "AI & Automation",
+      "icon": "brain",
+      "skills": ["Intelligent Agents", "Azure Document Intelligence", "Power Automate", "Azure Logic Apps", "AI-driven Automation", "OCR & Metadata Recognition"]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "icon": "cloud",
+      "skills": ["Microsoft Azure", "AWS", "Docker", "Kubernetes", "CI/CD", "Azure DevOps", "Jenkins", "TFS"]
+    },
+    {
+      "name": "Backend",
+      "icon": "server",
+      "skills": [".NET / C#", "ASP.NET MVC", "REST APIs", "Node.js", "Entity Framework", "Identity Server", "WCF Services"]
+    },
+    {
+      "name": "Frontend",
+      "icon": "layout",
+      "skills": ["Angular", "React", "TypeScript", "JavaScript", "Power Apps", "ExtJS", "jQuery"]
+    },
+    {
+      "name": "Data & Reporting",
+      "icon": "chart",
+      "skills": ["Power BI", "SQL", "Database Design", "Code First Approach", "SharePoint"]
+    },
+    {
+      "name": "Architecture & Quality",
+      "icon": "architecture",
+      "skills": ["Solutions Architecture", "Design Patterns", "TDD", "Automated Testing", "Swagger/OpenAPI", "Microservices"]
+    }
+  ]
+}

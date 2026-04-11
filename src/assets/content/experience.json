@@ -1,0 +1,172 @@
+[
+  {
+    "company": "International Atomic Energy Agency (IAEA)",
+    "totalDuration": "6 years 4 months",
+    "roles": [
+      {
+        "title": "Solutions Architect",
+        "period": "July 2023 - Present",
+        "duration": "2 years 10 months",
+        "location": "Vienna, Austria",
+        "highlights": [
+          "Implemented Azure's Document Intelligence to automate document processing using Microsoft AI",
+          "Architected the client-side implementation for document intelligence processing with bounding boxes for precise data extraction",
+          "Developed Azure Logic Apps to continuously train document models based on user feedback",
+          "Integrated a React-based client-side application into Power Apps with OCR metadata recognition",
+          "Optimized document processing workflows to streamline automation and improve operational efficiency",
+          "Developed a solution for Mobile and extension phone billing automation",
+          "Leveraged Power Platform's data gateway for seamless integration with on-premises infrastructure",
+          "Utilised Power BI for in-depth, dynamic reporting capabilities"
+        ]
+      },
+      {
+        "title": "Solutions Architect Consultant",
+        "period": "December 2021 - June 2023",
+        "duration": "1 year 7 months",
+        "location": "Vienna, Austria",
+        "highlights": [
+          "Migrated existing applications from TFS to GIT",
+          "Migrated CI/CD pipeline to YAML on Azure DevOps",
+          "Used Power Automate for invoices automation",
+          "Updated Architecture for Invoice Automation",
+          "Introduced industry standards and specifications in software applications"
+        ]
+      },
+      {
+        "title": "Lead Software Developer",
+        "period": "January 2020 - December 2021",
+        "duration": "2 years",
+        "location": "Vienna, Austria",
+        "highlights": [
+          "Developed a testing framework for functional tests usable in CI/CD pipeline",
+          "Developed and presented POCs to different stakeholders in business",
+          "Researched and analyzed solving various business problems with metadata driven approach",
+          "Developed solutions to solve document related problems"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "SimCorp",
+    "totalDuration": "6 months",
+    "roles": [
+      {
+        "title": "Senior Software Developer",
+        "period": "July 2019 - December 2019",
+        "duration": "6 months",
+        "location": "Vienna, Austria",
+        "highlights": [
+          "Built API using .NET Core to emulate WM Feeds API",
+          "Configured Docker in WM Feeds for monitoring using Grafana",
+          "Improved the performance of functional tests for customer implementations"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Zumtobel Group",
+    "totalDuration": "1 year 5 months",
+    "roles": [
+      {
+        "title": "Software Developer",
+        "period": "April 2018 - August 2019",
+        "duration": "1 year 5 months",
+        "location": "Austria",
+        "highlights": [
+          "Rebranded mobile applications using ExtJS",
+          "Worked on web application in IoT of Lighting",
+          "Used REST APIs developed in Java and hosted in the firmware",
+          "Improved the performance of the mobile app by optimizing the build"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "International Atomic Energy Agency (IAEA)",
+    "totalDuration": "1 year 2 months",
+    "roles": [
+      {
+        "title": "Senior Software Engineer",
+        "period": "March 2017 - April 2018",
+        "duration": "1 year 2 months",
+        "location": "Austria",
+        "highlights": [
+          "Migrated an existing application from Angular 1 to Angular 4",
+          "Developed POCs in React to verify the possibility of migration",
+          "Used Swagger-Codegen to auto-build services and models for Angular 4",
+          "Used CI/CD with TFS integrated build and release management tooling"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ECS",
+    "totalDuration": "1 year 4 months",
+    "roles": [
+      {
+        "title": "Senior Application Developer",
+        "period": "December 2015 - March 2017",
+        "duration": "1 year 4 months",
+        "location": "Pune, India",
+        "highlights": [
+          "Worked on POCs on Angular 2 using TypeScript",
+          "Worked on a generic mail based notification server and Identity Server",
+          "Used design patterns like Strategy, Chain of Responsibility, and Dependency Injection",
+          "Used Jenkins to setup CI/CD for all the applications"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ThinkBridge Software LLC",
+    "totalDuration": "1 year 8 months",
+    "roles": [
+      {
+        "title": "Senior Software Engineer",
+        "period": "April 2014 - November 2015",
+        "duration": "1 year 8 months",
+        "location": "Pune, India",
+        "highlights": [
+          "Worked as a team lead to manage the development of the product",
+          "Used CI/CD from Azure platform while working on the product",
+          "Used Angular JS 1.5 on the front end",
+          "Used REST services from Google endpoint/Web API"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "ICERTIS",
+    "totalDuration": "2 years 2 months",
+    "roles": [
+      {
+        "title": "Software Analyst",
+        "period": "March 2012 - April 2014",
+        "duration": "2 years 2 months",
+        "location": "Pune, India",
+        "highlights": [
+          "Part of a product development team (Transport Management System)",
+          "Created a product Utility tool as an Excel Add-in",
+          "Worked on different modules using ASP.NET MVC, JavaScript and jQuery"
+        ]
+      }
+    ]
+  },
+  {
+    "company": "Decos Software Development",
+    "totalDuration": "2 years",
+    "roles": [
+      {
+        "title": "Software Developer",
+        "period": "April 2010 - March 2012",
+        "duration": "2 years",
+        "location": "Pune, India",
+        "highlights": [
+          "Worked on HL7 protocol to work with data provided by hospitals",
+          "Created WCF services to generate patient reports on the UI",
+          "Created MSI packages using WIX for tools developed in .NET and C#"
+        ]
+      }
+    ]
+  }
+]
