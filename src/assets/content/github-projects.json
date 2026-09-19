@@ -1,5 +1,40 @@
 [
   {
+    "name": "service-and-delivery-agent",
+    "description": "Microsoft 365 Copilot declarative agent that assembles a read-only application service review across ServiceNow, Azure DevOps and SharePoint, rendered as interactive React MCP Apps inside Copilot chat.",
+    "html_url": "https://github.com/shoebsd31/service-and-delivery-agent",
+    "language": "C#",
+    "topics": ["Copilot", "MCP", "Agents"]
+  },
+  {
+    "name": "reachy-mini-alexa",
+    "description": "A Reachy Mini robot app that teaches German by voice — corrects your speech, teaches a word a day, tells stories, describes what its camera sees, and searches the web, all in a native German voice.",
+    "html_url": "https://github.com/shoebsd31/reachy-mini-alexa",
+    "language": "TypeScript",
+    "topics": ["Robotics", "Voice AI", "Realtime"]
+  },
+  {
+    "name": "local-ask-adventureworks",
+    "description": "Plain-English question answering over the AdventureWorks2019 SQL Server database using RAG with a fully local Ollama model — SELECT-only guard, PII refusal policy and an eval-first workflow.",
+    "html_url": "https://github.com/shoebsd31/local-ask-adventureworks",
+    "language": "C#",
+    "topics": ["RAG", "SQL Server", "Local LLM"]
+  },
+  {
+    "name": "youtube-automation-qwen",
+    "description": "End-to-end AI video pipeline: raw prompt to researched cinematic scenes, multi-clip generation, narration, stitching and YouTube upload, with a feedback loop that regenerates only affected scenes.",
+    "html_url": "https://github.com/shoebsd31/youtube-automation-qwen",
+    "language": "Python",
+    "topics": ["Generative Video", "Automation", "Qwen"]
+  },
+  {
+    "name": "entra-external-id-governance",
+    "description": "A governance module for Microsoft Entra External ID using external tenants for CIAM/customer identities.",
+    "html_url": "https://github.com/shoebsd31/entra-external-id-governance",
+    "language": "Azure",
+    "topics": ["Entra ID", "Identity", "Governance"]
+  },
+  {
     "name": "formfiller",
     "description": "AI-assisted tool that automatically populates form fields. Built with Python backend and a web-based interface using HTML/JS.",
     "html_url": "https://github.com/shoebsd31/formfiller",
